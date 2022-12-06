@@ -1,18 +1,11 @@
 /*CMD
-  command: /start
+  command: Subscription
   help: 
-  need_reply: true
+  need_reply: false
   auto_retry_time: 
-  folder: Navi
-
-  <<ANSWER
-What Can I help you with today?
-
-Our channel - https://t.me/GymshoeOTP
-
-Admin - @GymshoeAdmin 
-  ANSWER
-  keyboard: Start Suscription, Bank, Cash App, /Start
+  folder: 
+  answer: Anything Else?
+  keyboard: Bank Log, Cash App, /start
   aliases: 
 CMD*/
 
@@ -30,6 +23,4 @@ var buttons = [
 
 Bot.sendInlineKeyboard(
   buttons,
-  "Please select membership. After purchase, contact Admin for authentication Key "
-  )
-
+  "Please select membership. After purchase, contact Admin for authentication Key" ); 
